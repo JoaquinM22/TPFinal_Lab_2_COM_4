@@ -1,7 +1,7 @@
 #include "cartelesBanderas.h"
 
-/// TRABAJO PRACTICO FINAL LABORATORIO 2
-/// JOAQUIN ALBARRACIN, MAGALI MOURIÑO, SERGIO AREAN
+/// TRABAJO PRACTICO FINAL LABORATORIO 2 
+/// JOAQUIN ALBARRACIN, MAGALI MOURIÃ‘O, SERGIO AREAN
 
 ///INICIO FUNCIONES BANDERAS
 
@@ -409,7 +409,7 @@ void bandera_australia ()  ///
     printf("\033[0;37m");
 }
 
-/////en las pequeñas son 9 de ancho, x 3 de alto
+/////en las pequeÃ±as son 9 de ancho, x 3 de alto
 
 void bandera_dinamarca()  ///
 {
