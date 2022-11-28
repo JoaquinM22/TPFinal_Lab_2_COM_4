@@ -1,7 +1,7 @@
 #include "Partido.h"
 
 /// TRABAJO PRACTICO FINAL LABORATORIO 2
-/// JOAQUIN ALBARRACIN, MAGALI MOURIÑO, SERGIO AREAN
+/// JOAQUIN ALBARRACIN, MAGALI MOURIÃ‘O, SERGIO AREAN
 
 //CARGAR ARREGLO PARTIDOS
 nodoPartido* CrearNodoPartido(stPartido unPartido)
@@ -550,6 +550,7 @@ void JugarUnPartidoConPenales(stPartido* unPartido)
 
             unPartido->equipo2->loss = (unPartido->equipo2->loss) + 1;
             unPartido->equipo2->ga = (unPartido->equipo2->ga) + GolesGanador;
+            unPartido->equipo2->gf = (unPartido->equipo2->gf) + GolesPerdedor;
 
         }else
         {
@@ -563,6 +564,7 @@ void JugarUnPartidoConPenales(stPartido* unPartido)
 
             unPartido->equipo1->loss = (unPartido->equipo1->loss) + 1;
             unPartido->equipo1->ga = unPartido->equipo1->ga + GolesGanador;
+            unPartido->equipo1->gf = (unPartido->equipo1->gf) + GolesPerdedor;
         }
 
         unPartido->equipo1->mp = (unPartido->equipo1->mp) + 1;
