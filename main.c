@@ -3,10 +3,10 @@
 #include <string.h>
 #include <time.h>
 #include <windows.h>
-#include "cartelesBanderas.h"
+#include "cartelesBanderas.h" 
 
 /// TRABAJO PRACTICO FINAL LABORATORIO 2
-/// JOAQUIN ALBARRACIN, MAGALI MOURIÑO, SERGIO AREAN
+/// JOAQUIN ALBARRACIN, MAGALI MOURIÃ‘O, SERGIO AREAN
 
 void pelota();
 void titulo();
