@@ -3,7 +3,7 @@
 #include "Partido.h"
 
 /// TRABAJO PRACTICO FINAL LABORATORIO 2
-/// JOAQUIN ALBARRACIN, MAGALI MOURIÑO, SERGIO AREAN
+/// JOAQUIN ALBARRACIN, MAGALI MOURIÃ‘O, SERGIO AREAN
 
 //ARREGLO QUE CONTIENE LAS 5 FASES (OCTAVOS, CUARTOS, SEMIS, TERCER PUESTO Y FINAL)
 typedef struct
@@ -20,7 +20,7 @@ void InicializarFases(fase Fases[], int* validosFases);
 void CargarFases(fase Fases[], int* validosFases, Grupo ArrGrupos[]);
 void CargarOctavos(nodoPartido** Octavos, Grupo ArrGrupos[]);
 void CargarCuartos(nodoPartido** Cuartos, nodoPartido* Octavos);
-void CagarTercerPuesto(nodoPartido** Partido3erPuesto, nodoPartido* Semis);
+void CargarTercerPuesto(nodoPartido** Partido3erPuesto, nodoPartido* Semis);
 void CargarSemifinales(nodoPartido** Semis, nodoPartido* Cuartos);
 void CargarFinal(nodoPartido** PartidoFinal, nodoPartido* Semis);
 
