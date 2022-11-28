@@ -1,6 +1,6 @@
 #ifndef CARTELESBANDERAS_H_INCLUDED
 #define CARTELESBANDERAS_H_INCLUDED
-#include <stdio.h>
+#include <stdio.h> 
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
@@ -37,7 +37,7 @@
 #define BG_ROSE    "\x1B[48;2;255;151;203m"
 
 /// TRABAJO PRACTICO FINAL LABORATORIO 2
-/// JOAQUIN ALBARRACIN, MAGALI MOURIÑO, SERGIO AREAN
+/// JOAQUIN ALBARRACIN, MAGALI MOURIÃ‘O, SERGIO AREAN
 
 ///DE INTERACCION CON USUARIO
 void bienvenida ();
