@@ -1,7 +1,7 @@
 #include "Fase.h"
 
 /// TRABAJO PRACTICO FINAL LABORATORIO 2
-/// JOAQUIN ALBARRACIN, MAGALI MOURIÑO, SERGIO AREAN
+/// JOAQUIN ALBARRACIN, MAGALI MOURIÃ‘O, SERGIO AREAN
 
 //INICIALIZA EL ARREGLO DE LAS FASES
 void InicializarFases(fase Fases[], int* validosFases)
@@ -37,7 +37,7 @@ void CargarFases(fase Fases[], int* validosFases, Grupo ArrGrupos[])
     system("pause");
     system("cls");
 
-    CagarTercerPuesto(&(Fases[3].partidos),Fases[2].partidos);
+    CargarTercerPuesto(&(Fases[3].partidos),Fases[2].partidos);
     printf("\n\n");
     system("pause");
     system("cls");
@@ -217,7 +217,7 @@ void CargarCuartos(nodoPartido** Cuartos, nodoPartido* Octavos)
     ganadorP4 = RetornarGanadorPartido(Partido4);
 }
 
-void CagarTercerPuesto(nodoPartido** Partido3erPuesto, nodoPartido* Semis)
+void CargarTercerPuesto(nodoPartido** Partido3erPuesto, nodoPartido* Semis)
 {
     stEquipo* PerdedorS1, *PerdedorS2;
     stPartido TercerPuesto;
